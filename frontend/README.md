@@ -47,21 +47,21 @@ Visit http://localhost:3000 and you should see the application!
 ```
 frontend/
 ├── src/
-│   ├── main.tsx               # Application entry point
-│   ├── App.tsx                # Main component
-│   ├── index.css              # Global styles (Tailwind)
+│   ├── main.tsx               
+│   ├── App.tsx               
+│   ├── index.css             
 │   ├── types/
-│   │   └── index.ts           # TypeScript type definitions
+│   │   └── index.ts          
 │   └── utils/
-│       ├── api.ts             # API client (Axios)
-│       └── download.ts        # File download utility
-├── public/                    # Static assets
-├── index.html                 # HTML template
-├── package.json               # Dependencies
-├── tsconfig.json              # TypeScript config
-├── vite.config.ts             # Vite configuration
-├── tailwind.config.js         # Tailwind CSS config
-└── README.md                  # This file
+│       ├── api.ts             
+│       └── download.ts       
+├── public/                    
+├── index.html                 
+├── package.json               
+├── tsconfig.json              
+├── vite.config.ts             
+├── tailwind.config.js         
+└── README.md                 
 ```
 
 ## Features
