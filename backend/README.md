@@ -81,34 +81,34 @@ Visit these URLs in your browser:
 ```
 backend/
 ├── app/
-│   ├── main.py                    # FastAPI application
+│   ├── main.py                    
 │   ├── core/
 │   │   ├── __init__.py
-│   │   ├── config.py              # Settings & environment variables
-│   │   ├── database.py            # Async database setup
-│   │   ├── logging.py             # Structured logging
-│   │   └── exceptions.py          # Custom error classes
+│   │   ├── config.py             
+│   │   ├── database.py            
+│   │   ├── logging.py             
+│   │   └── exceptions.py          
 │   ├── models/
 │   │   ├── __init__.py
-│   │   └── company.py             # SQLAlchemy CompanyProfile model
+│   │   └── company.py             
 │   ├── schemas/
 │   │   ├── __init__.py
-│   │   └── company.py             # Pydantic request/response models
+│   │   └── company.py             
 │   ├── services/
 │   │   ├── __init__.py
-│   │   ├── company_service.py     # Company business logic
-│   │   └── report_service.py      # Report generation logic
+│   │   ├── company_service.py     
+│   │   └── report_service.py      
 │   └── api/
 │       └── v1/
 │           ├── __init__.py
-│           ├── companies.py       # Company endpoints
-│           └── reports.py         # Report endpoints
+│           ├── companies.py       
+│           └── reports.py         
 ├── data/
-│   └── company_profiles.db        # SQLite database (created automatically)
-├── requirements.txt               # Python dependencies
-├── seed_data.py                   # Database initialization script
-├── .env.example                   # Environment variables template
-└── README.md                      # This file
+│   └── company_profiles.db        
+├── requirements.txt               
+├── seed_data.py                   
+├── .env.example                   
+└── README.md                      
 ```
 
 ## API Endpoints
