@@ -89,24 +89,24 @@ The application comes pre-loaded with three companies:
 
 ```
 assignment2/
-├── README.md                 ← You are here
-├── backend/                  ← Python/FastAPI backend
-│   ├── README.md            ← Backend documentation
+├── README.md                 
+├── backend/                  
+│   ├── README.md            
 │   ├── app/
-│   │   ├── main.py          ← Application entry point
-│   │   ├── core/            ← Configuration & utilities
-│   │   ├── models/          ← Database models
-│   │   ├── schemas/         ← Request/response validation
-│   │   ├── services/        ← Business logic
-│   │   └── api/v1/          ← API endpoints
+│   │   ├── main.py          
+│   │   ├── core/            
+│   │   ├── models/          
+│   │   ├── schemas/         
+│   │   ├── services/       
+│   │   └── api/v1/         
 │   ├── requirements.txt
-│   └── seed_data.py         ← Database initialization
-└── frontend/                 ← React/TypeScript frontend
-    ├── README.md            ← Frontend documentation
+│   └── seed_data.py         
+└── frontend/                 
+    ├── README.md            
     ├── src/
-    │   ├── App.tsx          ← Main component
-    │   ├── types/           ← TypeScript definitions
-    │   └── utils/           ← API client & helpers
+    │   ├── App.tsx          
+    │   ├── types/           
+    │   └── utils/           
     └── package.json
 ```
 
