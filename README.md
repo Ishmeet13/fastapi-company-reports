@@ -220,7 +220,3 @@ Check out the detailed documentation:
 This is a demonstration project created for educational purposes.
 
 ---
-
-**Built by:** Ishmeet Singh Arora  
-**Stack:** Python • FastAPI • Pydantic • React • TypeScript • SQLAlchemy  
-**Purpose:** Demonstration of full-stack development with modern technologies
